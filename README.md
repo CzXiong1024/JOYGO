@@ -16,7 +16,6 @@ An e-commerce platform based on the Springboot framework.
   - Mybatis         3.5.7
   - Mybatis Plus    3.4
   - Druid           1.2.8
-  - Mysql           5.6
 
 - [x] Frontend
   - JSP
