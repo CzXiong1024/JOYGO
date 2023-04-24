@@ -41,16 +41,8 @@ An e-commerce platform based on the Springboot framework
 登录
 ![登录](documents/pics/login.png)
 
-#### 后台展示
-首页
-![首页](documents/pics/admin_home.png)
-
-分类
-![分类](documents/pics/admin_category.png)
-
-
 ### 部署
-- sql文件目录`documents/db/uzymall.sql`，添加到自己的数据库中。
+- sql文件目录`documents/db/FinalProjectSQL.sql`，添加到自己的数据库中。
 - 修改`src/main/resources/application.yml`文件中数据库连接信息
 - 启动`src/main/java/com/uzykj/mall/MallApplication.java`Springboot启动类
 
