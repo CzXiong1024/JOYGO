@@ -1,9 +1,16 @@
 # JoyGo Online Shop
 
-## Introduction
-An e-commerce platform based on the Springboot framework
+## 1. Introduction
+This is the final project for INFSCI 2710 Database management,
+An e-commerce platform based on the Springboot framework.
 
-### Technology Utilized
+- Group Name: JOY GO
+
+- Group Member: 
+  - Chengzhuo Xiong(CHX53)
+  - Yutong Tang (YUT89)
+
+### 2. Technology Utilized
 - [x] Backend
   - Springboot      2.1.4
   - Mybatis         3.5.7
@@ -16,39 +23,46 @@ An e-commerce platform based on the Springboot framework
   - bootstrap
   - jQuery
 
-### HOW TO RUN
+### 3. HOW TO RUN
 
-### Preview
-#### 前台展示
-首页
-![首页](documents/pics/home.png)
+- 3.1 This project was built by [Maven](https://maven.apache.org/),
+it is easy to apply all the dependencies(See `pom.xml`) based on Maven.
+Therefore, it is suggested that maven be downloaded bofore you test this project.
+- 3.2 Enter `pom.xml` file and refresh. Maven would download all the dependencies.
+- 3.3 Get database ready: 
+  - the sql is in `documents/db/FinalProjectSQL.sql`. 
+  - update the information of the DBMS in: `src/main/resources/application.yml`
+  - Since the data and DBMS have already been set up before, 3.3 can be skipped.
+- 3.4 Start the Driver
+  - Open `src/main/java/com/uzykj/mall/MallApplication.java` in the project and run it!
 
-分类
-![分类](documents/pics/category.png)
+### 4. Get Access and Try it!
+- URL：[http://127.0.0.1:8080/mall](http://127.0.0.1:8010/mall)
+- Account information to log in for general users:
+  - username: SteveXiong, Password: 123456
+  - username: TomaTang, Password: 123456
 
-列表
-![列表](documents/pics/list.png)
+### 5. Preview
 
-商品
-![商品](documents/pics/product.png)
+- Homepage
+![home](documents/pics/home.png)
 
-购物车
-![购物车](documents/pics/cart.png)
+- category
+![category](documents/pics/category.png)
 
-订单
-![订单](documents/pics/order.png)
+- product
+![product](documents/pics/product.png)
 
-登录
-![登录](documents/pics/login.png)
+- registration
+  ![registration](documents/pics/register.png)
 
-### 部署
-- sql文件目录`documents/db/FinalProjectSQL.sql`，添加到自己的数据库中。
-- 修改`src/main/resources/application.yml`文件中数据库连接信息
-- 启动`src/main/java/com/uzykj/mall/MallApplication.java`Springboot启动类
+- login
+  ![login](documents/pics/login.png)
 
-### 访问
-- 前台地址：[http://127.0.0.1:8080/mall](http://127.0.0.1:8010/mall)
+- shopping cart
+![cart](documents/pics/cart.png)
 
-- 后台管理：[http://127.0.0.1:8080/mall/admin](http://127.0.0.1:8010/mall/admin)
+- orders
+![order](documents/pics/order.png)
 
-### MIT
+
